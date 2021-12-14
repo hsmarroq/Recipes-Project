@@ -1,0 +1,82 @@
+/* Background */
+body {
+  background: #f4f4f4;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 2%;
+  font-family: 'Meow Script';
+  font-size: 20px;
+}
+
+/* Images and Buttons */
+img {
+  width:  400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+img:hover {
+  width: 410px;
+  height: 510px;
+}
+
+#peanut-blossoms {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#home-images {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: 'Quicksand';
+}
+
+.btn {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Media Queries */
+@media (max-width: 1250px) {
+  #home-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  img {
+    height: 190px;
+    width: 300px;
+  }
+
+  img:hover{
+    height: 210px;
+    width: 310px;
+  }
+}
+
+@media (max-width: 640px) {
+  img {
+    height: 200px;
+    width: 300px;
+  }
+
+  img:hover{
+    height: 210px;
+    width: 310px;
+  }
+}
